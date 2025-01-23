@@ -37,6 +37,22 @@ dependencies {
 }
 ```
 
+`gradle.properties` 파일 설정 / `gradle.properties` file setting 
+로컬 환경에서 라이브러리를 사용하려면, 프로젝트 루트 디렉토리에 **`gradle.properties`** 파일을 생성하고, 아래와 같이 GitHub 사용자명과 Personal Access Token을 설정합니다.
+
+```properties
+gpr.user=your-github-username
+gpr.token=your-personal-access-token
+```
+your-github-username: GitHub 사용자명을 입력합니다.
+your-personal-access-token: GitHub Personal Access Token(PAT) 생성 후 입력합니다.
+
+`GitHub Token 생성 / Generate GitHub Token`
+
+GitHub > Settings > Developer Settings > Personal Access Token에서 새 토큰 생성.
+
+권한: write:packages와 read:packages 포함.
+
 Quick Start / 빠른 시작
 
 1. Create an Entity / 엔티티 생성
