@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.example:crud-base-library:1.0.0'
+    implementation 'org.api:cws-crud:1.0.0'
 }
 ```
 
