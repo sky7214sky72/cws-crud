@@ -27,7 +27,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/sky7214sky72/cws-crud")
         credentials {
             username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_ACTOR")
-            password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
+            password = project.findProperty("gpr.token") ?: System.getenv("GITHUB_TOKEN")
         }
     }
 }
